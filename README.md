@@ -15,7 +15,7 @@ Following versions were used in the development of this demo:
 ## License
 This project is licensed under the MIT License, a short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
-<p align="center"> Copyright (c) 2021 Sai Vittal B. All rights reserved.</p>
+<p align="center"> Copyright (c) 2021 Lenny Kamande. All rights reserved.</p>
 
 ## Instructions to setup locally
 ### Installing modules
@@ -23,7 +23,7 @@ This project is licensed under the MIT License, a short and simple permissive li
 ```bash
 $ cd mkopa-assignment
 
-$ sudo docker-compose up build
+$ sudo docker-compose up --build
 ```
 ```
 MONGODB_URI="<YOUR-CONNECTION-STRING-HERE>"
