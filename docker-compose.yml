@@ -1,0 +1,10 @@
+version: "3"
+services:
+  api:
+    build: backend
+    tty: true
+    volumes:
+      - ./backend/bin:/backend/bin:cached,ro
+      - ./backend/src:/backend/src:cached,ro
+    ports:
+      - "3000:3000"
